@@ -2,29 +2,29 @@
 ---
 ## Regra de Negócio
 
-[x] Cadastrar funcionarios
-[x] Calcular pagamento de funcionarios
-[x] Escolher um intervalo de funcionarios
-[] Escolher o tipo de pagamento
-[] Imprimir na tela
-[x] Calcular salário
-[] Calcular férias
-[] Calcular 13º salário
+[x] Cadastrar funcionarios <br>
+[x] Calcular pagamento de funcionarios <br>
+[x] Escolher um intervalo de funcionarios <br>
+[] Escolher o tipo de pagamento <br>
+[] Imprimir na tela <br>
+[x] Calcular salário <br>
+[] Calcular férias <br>
+[] Calcular 13º salário <br>
 
 ## Classes
 
--Principal
+- Principal
 
--Funcionario
--CadastroFuncionario
+- Funcionario
+- CadastroFuncionario
 
--EmissaoHolerite
--Holerite
--TipoFolha:ENUM
--Evento
--TipoEvento:ENUM
+- EmissaoHolerite
+- Holerite
+- TipoFolha:ENUM
+- Evento
+- TipoEvento:ENUM
 
--Calculo:INTERFACE
--CalculoSalario
--CalculoFerias
--CalculoDecimoTer
+- Calculo:INTERFACE
+- CalculoSalario
+- CalculoFerias
+- CalculoDecimoTer
